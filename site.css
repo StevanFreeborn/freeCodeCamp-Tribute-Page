@@ -146,15 +146,33 @@ h2 {
     font-weight: 500;
 }
 
+@media (max-width: 600px) {
+    .quote-card {
+        width: 100%;
+    }
+}
+
 /*Bio*/
 .bio-text {
     width: 75%;
     margin: auto;
 }
 
+@media (max-width: 600px) {
+    .bio-text {
+        width: 100%;
+    }
+}
+
 /*Milestones*/
 .milestones .container {
     width: 75%;
+}
+
+@media (max-width: 600px) {
+    .milestones .container {
+        width: 100%;
+    }
 }
 
 .timeline {
@@ -266,9 +284,9 @@ h2 {
   /*Make sure that all arrows are pointing leftwards*/
     .milestone-container::before {
       left: 60px;
-      border: medium solid white;
+      border: medium solid #3ac6f3;
       border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+      border-color: transparent #3ac6f3 transparent transparent;
     }
   
   /*Make sure all circles are at the same spot*/
